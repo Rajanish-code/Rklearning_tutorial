@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environment Setup</title>
+    <link rel="stylesheet" href="cplusplus.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <div class="logo">
+                    <h1><span>RK</h1>
+                    <h4>learningtutorial</h4>
+                </div>
+    
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+    
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder=" Search here">
+                    <button class="searchbt" type="submit">Sign up</button>
+                    <button class="signup" type="submit">search</button>
+                </div>
+    
+            </ul>
+        </nav>
+        </header>
+    
+    
+    
+    
+         <main  class="first-main">
+           <div class="first-flex">
+             <div class="cplus">
+                 <div class="cpluscover">
+                  <div class="cplusimg">
+                    <img  width="100%" height="100%" src="cplusimg/cplu.png" alt="">
+                   </div>
+                               <ul class="toc-chapters">
+                               <h2 class="cplusheadings">C++ Basics</h2>
+    
+                               <li><a href="cplusplusindex.html">C++   Home</a></li>
+                                  <li><a href="Overview.html">C++ Overview</a></li>
+                                  <li><a href="EnvironmentSetup.html">C++ Environment Setup</a></li>
+                                  <li><a href="Basic_Syntax.html">C++ Basic Syntax</a></li>
+                                  <li><a href="Comments_cplusplus.html">C++ Comments</a></li>
+                                  <li><a href="DataTypes_cpluscplus.html">C++ Data Types</a></li>
+                                  <li><a href="#">C++ Variable Types</a></li>
+                                  <li><a href="#">C++ Variable Scope</a></li>
+                                  <li><a href="#">C++ Constants/Literals</a></li>
+                                  <li><a href="#">C++ Modifier Types</a></li>
+                                  <li><a href="#">C++ Storage Classes</a></li>
+                                  <li><a href="#">C++ Operators</a></li>
+                                  <li><a href="#">C++ Loop Types</a></li>
+                                  <li><a href="#">C++ Decision Making</a></li>
+                                  <li><a href="#">C++ Functions</a></li>
+                                  <li><a href="#">C++ Numbers</a></li>
+                                  <li><a href="#">C++ Array</a></li>
+                                  <li><a href="#">C++ Strings</a></li>
+                                  <li><a href="#">C++ Pointers</a></li>
+                                  <li><a href="#">C++ References</a></li>
+                                  <li><a href="#">C++ Date & Time </a></li>
+                                  <li><a href="#">C++ Basic Input/Output</a></li>
+    
+                                  <li><a href="#">C++ Data Structures</a></li>
+                                   </ul>
+    
+                                   
+                 </div>
+                </div>
+    
+                <div class="content-main" id="contentmain">
+                    
+                    <h1>C++ Data Types</h1>
+                    <hr>
+                    <p>
+                        While writing program in any language, you need to use 
+                        various variables to store various information. 
+                        Variables are nothing but reserved memory locations to 
+                        store values. This means that when you create a variable 
+                        you reserve some space in memory.
+                    </p>
+
+                    <p>
+                        You may like to store information of various data types 
+                        like character, wide character, integer, floating point, 
+                        double floating point, boolean etc. Based on the data 
+                        type of a variable, the operating system allocates 
+                        memory and decides what can be stored in the reserved 
+                        memory.
+                    </p>
+
+                    <h2>Primitive Built-in Types</h2>
+
+                    <p>
+                        C++ offers the programmer a rich assortment of built-in 
+                        as well as user defined data types. Following table 
+                        lists down seven basic C++ data types <b>−</b>
+                    </p>
+                        
+
+
+                    <table style="text-align: center;" class="table">
+                        <tbody>
+                          <tr>
+                            <td style="width: 25%; font-weight: bold; background-color: aquamarine;">Type</td>
+                            <td style="width: 25%; font-weight: bold; background-color: aquamarine;" >Keyword</td>
+                           
+                          </tr>
+
+                          <tr>
+                            <td>Boolean</td>
+                            <td>bool</td>
+                          </tr>
+                         
+                          <tr>
+                            <td>character</td>
+                            <td>char</td>
+                          </tr>
+
+                          <tr>
+                            <td>Integer</td>
+                            <td>int</td>
+                          </tr>
+
+                          <tr>
+                            <td>Floating point</td>
+                            <td>float</td>
+                          </tr>
+
+                          <tr>
+                            <td>Double floating point</td>
+                            <td>double</td>
+                          </tr>
+
+                          <tr>
+                            <td>Valueless</td>
+                            <td>void</td>
+                          </tr>
+
+                          <tr>
+                            <td>Wide character</td>
+                            <td>wchar_t</td>
+                          </tr>
+                          
+                        </tbody>
+    
+                      </table>
+
+                      <p>
+                        The following table shows the variable type, how much 
+                        memory it takes to store the value in memory, and what 
+                        is maximum and minimum value which can be stored in such 
+                        type of variables.
+                      </p>
+
+
+                      <table style="text-align: center;" class="table">
+                        <tbody>
+                          <tr>
+                            <td style="width: 25%; font-weight: bold; background-color: aquamarine;">Type</td>
+                            <td style="width: 25%; font-weight: bold; background-color: aquamarine;" >Typical Bit Width</td>
+                            <td style="width: 25%; font-weight: bold; background-color: aquamarine;" >Typical Range</td>
+                           
+                          </tr>
+
+                          <tr>
+                            <td>char</td>
+                            <td>1byte</td>
+                            <td>-127 to 127 or 0 to 255</td>
+                          </tr>
+                         
+                          <tr>
+                            <td>unsigned char</td>
+                            <td>1byte</td>
+                            <td>0 to 255</td>
+                          </tr>
+
+                          <tr>
+                            <td>signed char</td>
+                            <td>1byte</td>
+                            <td>-127 to 127</td>
+                          </tr>
+
+                          <tr>
+                            <td>int</td>
+                            <td>4bytes</td>
+                            <td>-2147483648 to 2147483647</td>
+                          </tr>
+
+                          <tr>
+                            <td>unsigned int</td>
+                            <td>4bytes</td>
+                            <td>0 to 4294967295</td>
+                          </tr>
+
+                          <tr>
+                            <td>signed int</td>
+                            <td>4bytes</td>
+                            <td>-2147483648 to 2147483647</td>
+                          </tr>
+
+                          <tr>
+                            <td>short int</td>
+                            <td>2bytes</td>
+                            <td>-32768 to 32767</td>
+                          </tr>
+                          
+                          <tr>
+                            <td>unsigned short int</td>
+                            <td>2bytes</td>
+                            <td>0 to 65,535</td>
+                          </tr>
+
+                          <tr>
+                            <td>signed short int</td>
+                            <td>2bytes</td>
+                            <td>-32768 to 32767</td>
+                          </tr>
+
+                          <tr>
+                            <td>long int</td>
+                            <td>8bytes</td>
+                            <td>-9223372036854775808 to 9223372036854775807</td>
+                          </tr>
+
+
+                          <tr>
+                            <td>signed long int</td>
+                            <td>8bytes</td>
+                            <td>same as long int</td>
+                          </tr>
+
+                          <tr>
+                            <td>unsigned long int</td>
+                            <td>8bytes</td>
+                            <td>0 to 18446744073709551615</td>
+                          </tr>
+
+                          <tr>
+                            <td>long long int</td>
+                            <td>8bytes</td>
+                            <td>-(2^63) to (2^63)-1</td>
+                          </tr>
+
+                          <tr>
+                            <td>unsigned long long int</td>
+                            <td>8bytes</td>
+                            <td>0 to 18,446,744,073,709,551,615</td>
+                          </tr>
+
+                          <tr>
+                            <td>float</td>
+                            <td>4bytes</td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td>double</td>
+                            <td>8bytes</td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td>long double</td>
+                            <td>12bytes</td>
+                            <td></td>
+                          </tr>
+
+                          <tr>
+                            <td>wchar_t</td>
+                            <td>2 or 4 bytes</td>
+                            <td>1 wide character</td>
+                          </tr>
+                        </tbody>
+    
+                      </table>
+
+                      <p>
+                        The size of variables might be different from those 
+                        shown in the above table, depending on the compiler and 
+                        the computer you are using.
+                      </p>
+
+                      <p>
+                        Following is the example, which will produce correct 
+                        size of various data types on your computer.
+                      </p>
+                        
+                      
+                    
+               <div class="next-buttton" id="navigation-bottom">
+                <a href="#" class="pre-btn">Previous Page</a>
+                <a href="#" class="next-btn">Next Page</a>
+               </div>
+              
+            </div>
+           
+    
+      </main> 
+     
+    
+       <section class="footerimgp">
+    
+      <div class="footerimg">
+          <img width="40%" height="50%" src="cplusimg/footer1.png" alt="">
+    
+        <img  width="40%" height="46%" src="cplusimg/footer.jpg" alt="">
+      </div>
+    
+    </section>
+    
+    
+    
+    <section class="footer">
+    
+         
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">770-087-2867</a>
+                <a href="#">Rajanishkmr49@gmail.com</a>
+                <a href="#">Bihar, india - 841232</a>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">service</a>
+                <a href="#">contact</a>
+    
+            </div>
+    
+    
+    
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/">facebook</a>
+                <a href="www.twitter.com">twitter</a>
+                <a href="www.instagram">instagram</a>
+                <a href="www.linkedin.com">linkedin</a>
+            </div>
+    
+            
+    
+        </div>
+        <div class="credit"> copyright @ by <span>Rajanish Kumar</span> </div>
+    </section> 
+</body>
+</html>
