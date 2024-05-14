@@ -1,7 +1,10 @@
-* {
-  padding: 0%;
-  margin: 0%;
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+
 .logo {
   padding-left: 20px;
 }
@@ -26,11 +29,12 @@
 
 .navbar {
   background-color: rgb(37 10 230 / 94%);
-  height: 31px;
-  border-radius: 25px;
-  position: fixed;
-  width: 79em;
-  top: 0px;
+    height: 31px;
+    border-radius: 25px;
+    position: fixed;
+    width: 96vw;
+    top: 0px;
+    right: 18px;
 }
 .navbar ul {
   overflow: auto;
@@ -84,13 +88,14 @@
 }
 .rk-main {
   background-image: url(img/backgr.jpg);
-  height: 25rem;
-  width: 75rem;
-  border-radius: 97px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 45px;
-  margin-left: 28px;
+    height: 27rem;
+    width: 85rem;
+    border-radius: 97px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 45px;
+    margin-left: 28px;
+    padding: 74px;
 }
 .rk-main h3 {
   font-size: 63px;
@@ -208,6 +213,9 @@
   background-color: #dfb93a8f;
   margin-top: 20px;
   border-radius: 51px;
+  text-align: center;
+  align-items: center;
+  margin: 30px;
 }
 
 .heading1 {
@@ -234,9 +242,9 @@
 }
 .categoriesbox img {
   height: 60px;
-  width: 67px;
-  margin-left: 65px;
-  margin-top: 29px;
+    width: 67px;
+    /* margin-left: 65px; */
+    margin-top: 29px;
 }
 .btn {
   margin-left: 60px;
@@ -248,8 +256,8 @@
   border-radius: 10px;
   margin-right: 64px;
   padding-left: 15px;
-  height: 27px;
-  width: 81px;
+  height: 30px;
+  width: 150px;
   padding-top: 6px;
   border: 1px solid black;
 }
@@ -259,13 +267,15 @@
 }
 /*second section start  */
 .containarl {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 40px;
   background-color: #10ded159;
   margin-top: 20px;
   border-radius: 51px;
+  text-align: center;
+  margin: 30px;
 }
 
 
@@ -298,14 +308,18 @@
   padding-left: 30px;
   background-color: cadetblue;
   border-radius: 4px;
+  height: auto;
+    max-width: 100vw;
+    position: absolute;
+    margin: 15px;
+    border-radius: 20px;
 }
 
 .footer .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  gap: 1.5rem;
-
-  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  gap: 19em;
+  padding: 48px;
 }
 .footer .box-container .box h3 {
   padding: 0.5rem 13px;
@@ -340,3 +354,4 @@
 .footer .credit span {
   color: green;
 }
+
